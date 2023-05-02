@@ -1,0 +1,34 @@
+    1  2023-05-01 17:05:52 file="history.txt"
+    2  2023-05-01 17:05:52 history >> $file          # Save the history.
+    1  2023-05-01 17:06:05 file="history.txt"
+    2  2023-05-01 17:06:05 history >> $file          # Save the history.
+    1  2023-05-01 17:06:05 cat file
+    2  2023-05-01 17:06:26 file="history.txt"
+    3  2023-05-01 17:06:26 history >> $file          # Save the history.
+    1  2023-05-01 17:06:05 cat file
+    2  2023-05-01 17:06:26 cat file
+    3  2023-05-01 17:10:07 file="history.txt"
+    4  2023-05-01 17:10:07 history >> $file          # Save the history.
+    1  2023-05-01 17:06:05 cat file
+    2  2023-05-01 17:06:26 cat file
+    3  2023-05-01 17:10:07 echo $file
+    1  2023-05-01 17:06:05 cat file
+    2  2023-05-01 17:06:26 cat file
+    3  2023-05-01 17:10:07 echo $file
+    4  2023-05-01 17:11:33 file="history.txt"
+    5  2023-05-01 17:11:33 history >> $HISTFILE          # Save the history.
+    4  2023-05-01 17:11:33 echo $file
+    5  2023-05-01 17:11:53 file="history.txt"
+    6  2023-05-01 17:11:53 history >> $file          # Save the history.
+    1  2023-05-01 17:06:05 cat file
+    2  2023-05-01 17:06:26 cat file
+    3  2023-05-01 17:10:07 echo $file
+    1  2023-05-01 17:06:05 cat file
+    2  2023-05-01 17:06:26 cat file
+    3  2023-05-01 17:10:07 echo $file
+    4  2023-05-01 17:11:33 file="history.txt"
+    5  2023-05-01 17:11:33 history >> $HISTFILE          # Save the history.
+    4  2023-05-01 17:11:33 echo $file
+    5  2023-05-01 17:11:53 echo $HISTFILE
+    6  2023-05-01 17:15:47 file="history.txt"
+    7  2023-05-01 17:15:47 history >> $file          # Save the history.
